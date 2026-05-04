@@ -1,11 +1,11 @@
-import './App.css'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
 
 
   return (
     <>
-      <h2 className='text-5xl'>Pricing Options</h2>
+      <Navbar></Navbar>
     </>
   )
 }
